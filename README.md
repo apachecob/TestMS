@@ -1,17 +1,17 @@
 # API REST para Prueba en MINSAL
 
-Este documento describe cómo configurar y ejecutar una API REST que consulta un producto asociado a un código específico.
+Este documento describe cómo configurar y ejecutar una API REST que consulta un contacto específico desde la tabla contactos
 
 ## Endpoint
 
-- **GET api/productos/{codigo}**: Este endpoint permite consultar un producto asociado a un código proporcionado en la URL.
+- **GET api/productos/{codigo}**: Este endpoint permite consultar un contacto asociado a un código proporcionado en la URL.
 
 ## Pasos para la Instalación
 
-1. **Levantar una base de datos MySQL**:
-   - Asegúrate de tener MySQL instalado y en funcionamiento en tu máquina o servidor.
+1. **Levantar una base de datos PostgreSQL**:
+   - Asegúrate de tener PostgreSQL instalado y en funcionamiento en tu máquina o servidor.
 
-2. **Usar el script `sql_script.sql`**:
+2. **Usar el script `script.sql`**:
    - Este script contiene datos de prueba necesarios para la API. Carga este script en tu base de datos MySQL para crear las tablas y los datos iniciales.
 
 3. **Tomar la dirección IP de la base de datos MySQL**:
